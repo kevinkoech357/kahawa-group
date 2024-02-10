@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 30vw; 
+    height: 50vh;
+    overflow: hidden;
+    margin: auto;
+    background-image: url(../assets/rachel-coyne-U7HLzMO4SIY-unsplash.jpg);
+    height: 100vh;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.select {
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    margin-top: 10px;
+}
+
+label::after {
+    content: " * ";
+    color: red;
+}
+
+.labelfield {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#submit {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #da170a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button{
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+button:active {
+    background-color: gray;
+}
+
+#submit:hover {
+    background-color: #13c619;
+}
+
+.password, .personal, .name{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.name {
+    margin-top: 10px;
+}
+
+a {
+    color: green;
+}
+
+
+
+
+/* Styles for mobile phones */
+@media (max-width: 600px) {
+    body {
+        font-family: Arial, sans-serif;
+        width: 70vw; 
+        height: 50vh;
+        overflow: hidden;
+        margin: auto;
+        background-image: url(../assets/rachel-coyne-U7HLzMO4SIY-unsplash.jpg);
+        height: 100vh;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+    
+    .container {
+        margin: 50px auto;
+        padding: 10px 20px;
+        background: white;
+        opacity: 0.8;
+        border-radius: 5px;
+    }
+    
+    input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    
+   
+    
+    button{
+        align-items: center;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .password, .personal, .name{
+        display: flex;
+        flex-direction: column; 
+    }
+}
+
+
+/* Styles for tablets */
+@media (min-width: 601px) and (max-width: 800px) {
+    body {
+        font-family: Arial, sans-serif;
+        width: 60vw; 
+        height: 50vh;
+        overflow: hidden;
+        margin: auto;
+        background-image: url(../assets/rachel-coyne-U7HLzMO4SIY-unsplash.jpg);
+        height: 100vh;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+    
+    .container {
+        margin: 50px auto;
+        padding: 10px 20px;
+        background: white;
+        opacity: 0.8;
+        border-radius: 5px;
+    }
+    
+    input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    .password, .personal, .name{
+        display: flex;
+        justify-content: space-between;  
+    }
+}
