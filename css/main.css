@@ -69,3 +69,37 @@ body {
 .login-btn:hover {
   background-color: #555;
 }
+
+.testimonial-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  flex: 1 1 300px;
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.author {
+  font-weight: bold;
+}
