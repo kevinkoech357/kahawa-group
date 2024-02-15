@@ -1,0 +1,163 @@
+{
+  "eventPlanners": [
+    {
+      "id": 1,
+      "name": "Event Planner 1",
+      "events": [
+        {
+          "id": 1,
+          "name": "Event 1",
+          "attendees": 50,
+          "image": "event1.jpg",
+          "ticketBuyers": [
+            {
+              "id": 1,
+              "name": "Ticket Buyer 1"
+            },
+            {
+              "id": 2,
+              "name": "Ticket Buyer 2"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Event 2",
+          "attendees": 100,
+          "image": "event2.jpg",
+          "ticketBuyers": [
+            {
+              "id": 3,
+              "name": "Ticket Buyer 3"
+            },
+            {
+              "id": 4,
+              "name": "Ticket Buyer 4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Event Planner 2",
+      "events": [
+        {
+          "id": 3,
+          "name": "Event 3",
+          "attendees": 75,
+          "image": "event3.jpg",
+          "ticketBuyers": [
+            {
+              "id": 5,
+              "name": "Ticket Buyer 5"
+            },
+            {
+              "id": 6,
+              "name": "Ticket Buyer 6"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Event 4",
+          "attendees": 120,
+          "image": "event4.jpg",
+          "ticketBuyers": [
+            {
+              "id": 7,
+              "name": "Ticket Buyer 7"
+            },
+            {
+              "id": 8,
+              "name": "Ticket Buyer 8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+
+  "slideshow": [
+        {
+            "id": 1,
+            "src": "assets/slideshow/image1.jpg",
+            "alt": "Image 1 description"
+        },
+        {
+            "id": 2,
+            "src": "assets/slideshow/image2.jpg",
+            "alt": "Image 2 description"
+        },
+        {
+            "id": 3,
+            "src": "assets/slideshow/image3.jpg",
+            "alt": "Image 3 description"
+        },
+        {
+            "id": 4,
+            "src": "assets/slideshow/image4.jpg",
+            "alt": "Image 4 description"
+        }
+    ],
+
+    "events": [
+      {
+        "id": 1,
+        "name": "Beach holiday",
+        "date": "April 11, 2024",
+        "poster": "assets/slideshow/image1.jpg",
+        "ticketSalesEnd": "April 10, 2024"
+      },
+      {
+        "id": 2,
+        "name": "Tech conference",
+        "date": "June 25, 2024",
+        "poster": "assets/slideshow/image2.jpg",
+        "ticketSalesEnd": "June 20, 2024"
+      },
+      {
+        "id": 3,
+        "name": "Texas EDM party",
+        "date": "June 14, 2024",
+        "poster": "assets/slideshow/image3.jpg",
+        "ticketSalesEnd": "June 11, 2024"
+      },
+      {
+        "id": 4,
+        "name": "Event Name",
+        "date": "August 8, 2024",
+        "poster": "assets/slideshow/image4.jpg",
+        "ticketSalesEnd": "August 6, 2024"
+      }
+    ],
+
+
+    "services": [
+      {
+        "name": "Concert Ticketing",
+        "description": "We provide ticketing services for a variety of concerts. Browse through our list of upcoming concerts and easily purchase tickets directly from our website."
+      },
+      {
+        "name": "Hangouts/Meetups Ticketing",
+        "description": "Looking to attend a hangout or meetup? We've got you covered. Find the best hangouts and meetups and book your tickets with ease."
+      },
+      {
+        "name": "Game/Matches Ticketing",
+        "description": "Never miss a game or match again. We offer ticketing services for a wide range of sports and esports events."
+      },
+      {
+        "name": "Travel Ticketing",
+        "description": "Planning a trip? We offer ticketing services for various travel destinations. Book your tickets with us and enjoy a hassle-free travel experience."
+      },
+      {
+        "name": "Conference Ticketing",
+        "description": "Stay updated with the latest conferences in your industry. We provide ticketing services for a variety of conferences across different fields."
+      },
+      {
+        "name": "Tech Events Ticketing",
+        "description": "Get access to the best tech events around the world. We offer ticketing services for a wide range of tech events, from small meetups to large conferences."
+      }
+    ]
+}
