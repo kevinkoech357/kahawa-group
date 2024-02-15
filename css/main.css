@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #020614;
 }
 
 .navbar {
@@ -102,4 +101,176 @@ body {
 
 .author {
   font-weight: bold;
+}
+
+/* carousel styling */
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+
+.carousel img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 3s;
+}
+
+
+.carousel img.hidden {
+  opacity: 0;
+}
+
+
+.caption {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color: white;
+  max-width: 40%;
+  word-wrap: break-word;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+/* featued event section */
+
+
+.events {
+  margin: 30px 100px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+
+.event-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.event-info {
+  padding: 15px;
+}
+
+
+.event-date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+
+.event-name {
+  font-size: 20px;
+  margin: 0;
+}
+
+
+.book-now-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  background: #007BFF;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.ticket-sales-end {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+
+
+#seeMoreBtn {
+  display: block;
+  width: 100px;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+}
+
+
+/* services section */
+.services {
+  margin: 30px 100px;
+}
+
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+
+.service-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.service-card:hover {
+  background-color: #0d204b;
+}
+
+
+.service-info {
+  padding: 15px;
+}
+
+
+.service-name {
+  font-size: 20px;
+  margin: 0;
+}
+
+
+.service-description {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+
+
+.service-name,
+.service-card:hover .service-description {
+  color: #fff;
 }
