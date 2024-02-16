@@ -274,3 +274,33 @@ body {
 .service-card:hover .service-description {
   color: #fff;
 }
+footer {
+  background-color: #0d204b;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+footer .author-info {
+  margin-bottom: 20px;
+}
+
+footer .author-info a {
+  display: block;
+  margin-bottom: 5px;
+}
